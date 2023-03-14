@@ -18,7 +18,7 @@ const tokenValidator = require("./utils/tokenValidator");
 const port = process.env.PORT || 8080;
 
 // cors
-var allowedOrigins = ["http://localhost:3000"];
+var allowedOrigins = ["pococare-frontend-d2vh0r3q2-kirandas96.vercel.app"];
 
 app.use(cors({
   origin: function(origin, callback){
